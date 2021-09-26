@@ -36,5 +36,9 @@
   * [13-2 迭代器](chapter-13-han-shu-shi-yu-yan-gong-neng-die-dai-qi-yu-bi-bao/132-die-dai-qi.md)
   * [13-3 改进之前的IO项目](chapter-13-han-shu-shi-yu-yan-gong-neng-die-dai-qi-yu-bi-bao/133-gai-jin-zhi-qian-de-io-xiang-mu.md)
 * [Chapter 14 进一步认识 Cargo 和 Crates.io](chapter-14-jin-yi-bu-ren-shi-cargo-he-crates.io.md)
-* [Chapter 15 智能指针](chapter-15-zhi-neng-zhi-zhen.md)
+* [Chapter 15 智能指针](chapter-15-zhi-neng-zhi-zhen/README.md)
+  * [15-1 使用Box&lt;T&gt;指向堆上的数据](chapter-15-zhi-neng-zhi-zhen/151-shi-yong-boxt-zhi-xiang-dui-shang-de-shu-ju.md)
+  * [15-2 Deref Trait](chapter-15-zhi-neng-zhi-zhen/15-2-deref-trait.md)
+  * [15-3 Drop Trait](chapter-15-zhi-neng-zhi-zhen/15-3-drop-trait.md)
+  * [15-4 Rc&lt;T&gt;引用计数智能指针](chapter-15-zhi-neng-zhi-zhen/154-rct-yin-yong-ji-shu-zhi-neng-zhi-zhen.md)
 
