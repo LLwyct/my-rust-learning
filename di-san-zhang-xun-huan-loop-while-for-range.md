@@ -2,7 +2,7 @@
 description: 常用循环
 ---
 
-# 第三章 循环 loop while for range
+# Chapter 3 循环 loop while for range
 
 ## 1 loop 循环
 

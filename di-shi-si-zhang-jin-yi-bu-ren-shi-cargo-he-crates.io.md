@@ -1,4 +1,4 @@
-# 第十四章 进一步认识 Cargo 和 Crates.io
+# Chapter 14 进一步认识 Cargo 和 Crates.io
 
 这一部分相当于npm的用法，暂略
 
