@@ -1,7 +1,3 @@
----
-description: 如何在不安装VS的情况下快速安装Rust
----
-
 # Chapter 1 如何快速安装Rust
 
 最近想学习一下rust语言，于是打算安装一下。
