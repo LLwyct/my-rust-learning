@@ -26,7 +26,7 @@ pub trait Summary {
 
 比如我们定义了一个 `Summary` 的trait，现在 新闻类型，微博类型 要去实现这个 trait，此时我们实现内部方法 `summarize`。
 
-```ruby
+```rust
 pub trait Summary {
     fn summarize (&self) -> String;
 }
@@ -62,7 +62,7 @@ impl Summary for Weibo {
 
 实现trait 的语法为：`impl xxx for xxxx`。接下来看一下使用：
 
-```ruby
+```rust
 fn main () {
     let weibo = Weibo {
         username: String::from("@Fojuto"),
@@ -97,7 +97,7 @@ fn main () {
 
 虽说没必要在定义 trait 时实现方法体，但是还是可以给出一个默认实现。（在定义时为其实现，就相当于该方法的默认实现）
 
-```ruby
+```rust
 pub trait Summary {
     fn summarize (&self) -> String {
         String::from("(Read more...)")
