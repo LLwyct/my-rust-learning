@@ -113,26 +113,6 @@ let b = Cons(3, smart_pointer_of_a.clone());
 let c = Cons(4, smart_pointer_of_a.clone());
 ```
 
-#### 完整代码
-
-```rust
-use std::rc::Rc;
-use crate::List::{Cons, Nil};
-
-enum List {
-    Cons(i32, Rc<List>),
-    Nil,
-}
-
-fn main () {
-    let a = Cons(5, Rc::new(Cons(10, Rc::new(Nil))));
-    // 这里多写一步是为了强化需要使用Rc::new创建指针的概念
-    let smart_pointer_of_a = Rc::new(a);
-    let b = Cons(3, Rc::clone(&smart_pointer_of_a));
-    let c = Cons(4, Rc::clone(&smart_pointer_of_a));
-}
-```
-
 ## 克隆 `Rc<T>` 会增加引用计数
 
 `Rc::strong_count(&T)` 方法可以获得指针\(引用\)的**强引用计数**。
