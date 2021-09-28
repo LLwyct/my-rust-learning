@@ -47,4 +47,6 @@
 * [Chapter 16 无畏并发](chapter-16-wu-wei-bing-fa/README.md)
   * [16-1 使用线程同时运行代码](chapter-16-wu-wei-bing-fa/161-shi-yong-xian-cheng-tong-shi-yun-hang-dai-ma.md)
   * [16-2 使用消息传递在线程间传送数据](chapter-16-wu-wei-bing-fa/162-shi-yong-xiao-xi-chuan-di-zai-xian-cheng-jian-chuan-song-shu-ju.md)
+  * [16-3 共享状态并发](chapter-16-wu-wei-bing-fa/163-gong-xiang-zhuang-tai-bing-fa.md)
+  * [16-4 使用 Sync 和 Send trait 的可扩展并发](chapter-16-wu-wei-bing-fa/16-4-shi-yong-sync-he-send-trait-de-ke-kuo-zhan-bing-fa.md)
 
