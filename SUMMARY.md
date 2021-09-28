@@ -44,4 +44,7 @@
   * [15-4 Rc&lt;T&gt;引用计数智能指针](chapter-15-zhi-neng-zhi-zhen/15-4-rct-yin-yong-ji-shu-zhi-neng-zhi-zhen.md)
   * [15-5 RefCell&lt;T&gt;与内部可变性模式](chapter-15-zhi-neng-zhi-zhen/15-5-refcellt-yu-nei-bu-ke-bian-xing-mo-shi.md)
   * [15-6 引用循环与内存泄露](chapter-15-zhi-neng-zhi-zhen/15-6-yin-yong-xun-huan-yu-nei-cun-xie-lu.md)
+* [Chapter 16 无畏并发](chapter-16-wu-wei-bing-fa/README.md)
+  * [16-1 使用线程同时运行代码](chapter-16-wu-wei-bing-fa/161-shi-yong-xian-cheng-tong-shi-yun-hang-dai-ma.md)
+  * [16-2 使用消息传递在线程间传送数据](chapter-16-wu-wei-bing-fa/162-shi-yong-xiao-xi-chuan-di-zai-xian-cheng-jian-chuan-song-shu-ju.md)
 
