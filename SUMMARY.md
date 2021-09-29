@@ -49,4 +49,7 @@
   * [16-2 使用消息传递在线程间传送数据](chapter-16-wu-wei-bing-fa/162-shi-yong-xiao-xi-chuan-di-zai-xian-cheng-jian-chuan-song-shu-ju.md)
   * [16-3 共享状态并发](chapter-16-wu-wei-bing-fa/163-gong-xiang-zhuang-tai-bing-fa.md)
   * [16-4 使用 Sync 和 Send trait 的可扩展并发](chapter-16-wu-wei-bing-fa/16-4-shi-yong-sync-he-send-trait-de-ke-kuo-zhan-bing-fa.md)
+* [Chapter 17 Rust的面向对象特性](chapter-17-rust-de-mian-xiang-dui-xiang-te-xing/README.md)
+  * [17-1 面向对象语言的特征](chapter-17-rust-de-mian-xiang-dui-xiang-te-xing/17-1-mian-xiang-dui-xiang-yu-yan-de-te-zheng.md)
+  * [17-2 为使用不同类型的值而设计的 trait 对象](chapter-17-rust-de-mian-xiang-dui-xiang-te-xing/172-wei-shi-yong-bu-tong-lei-xing-de-zhi-er-she-ji-de-trait-dui-xiang.md)
 
